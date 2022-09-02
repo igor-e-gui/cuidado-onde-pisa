@@ -1,4 +1,4 @@
-# cuidado-onde-pisa
+# Cuidado onde pisa
 
 ## Premissa do jogo:
 
