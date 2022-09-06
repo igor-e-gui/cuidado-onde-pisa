@@ -83,3 +83,5 @@ else:
 
     print (numero)
     print (bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7 + bit8)
+
+    
