@@ -1,5 +1,5 @@
 # Armazenar um numero entre 0 e 255. Por exemplo, o número 150;
-numero = 150
+numero = 255
 
 # subtraia o numero por 128, se o resultado da operação for 0 ou superior então o primeiro bit é 1
 if (numero - 128) >= 0:
@@ -71,8 +71,8 @@ if (numero - 2) >= 0:
 else:
     bit7 = "0"
 
-    print (numero)
-    print (bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7)
+print (numero)
+print (bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7)
 
 # subtraia o numero por 1, se o resultado da operação for 0 ou superior então o oitavo bit é 1
 if (numero - 1) >= 0:
@@ -81,7 +81,7 @@ if (numero - 1) >= 0:
 else:
     bit8 = "0"
 
-    print (numero)
-    print (bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7 + bit8)
+print (numero)
+print (bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7 + bit8)
 
     
