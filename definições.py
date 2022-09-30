@@ -14,21 +14,21 @@ estados = {
             '[sS](i)+m': 2,
             '[nN][aã]+o': 3
         },
-        'tempo_limite': 10
+        'tempo_limite': -1
     },
     2: {
         'frases': ['Era uma vez...', 'E lá de volta outra vez...'],
         'proximos_estados': {
             '[nN][aã]+o': 3
         },
-        'tempo_limite': 10
+        'tempo_limite': -1
     },
     3: {
         'frases': ['Fim do jogo!', 'Parabéns!'],
         'proximos_estados': {
             '[rR]einicia(r)*': 1
         },
-        'tempo_limite': 10
+        'tempo_limite': -1
     }
 }
 
