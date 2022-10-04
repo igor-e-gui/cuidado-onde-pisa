@@ -1,3 +1,8 @@
+frases = {
+    'inventario_insuficiente': 'Sem os recursos necessários para avançar.',
+    'erro': 'I\'m sorry Dave, I\'m afraid I can\'t do that.'
+}
+
 # Dicionário com as definições da máquina de estados do jogo.
 # As opções dos jogadores são definidas como expressões regulares.
 estados = {
