@@ -44,14 +44,15 @@ async def on_message(msg):
                 partidas[autor]['inventario'] = inventario_do_jogador.difference(
                     estados[value]['inventario'])
 
+
+                # Cria uma lista de frases usando o delimitador '|' e envia uma a uma
+                [await msg.channel.send(i) for i in choice(estados[value]['frases']).split('|')]
+
                 # Se houver uma imagem referente ao estado,
                 # envia essa primeiro
                 imagem = str(value) + '.gif'
                 if exists(imagem):
                     await msg.channel.send(file=discord.File(imagem))
-
-                # Cria uma lista de frases usando o delimitador '|' e envia uma a uma
-                [await msg.channel.send(i) for i in choice(estados[value]['frases']).split('|')]
             else:
                 await msg.channel.send(frases['inventario_insuficiente'])
             return
