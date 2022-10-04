@@ -28,7 +28,7 @@ async def on_message(msg):
         # Jogador começa no estado 0 com duas chaves
         partidas[autor] = {
             'estado': 0,
-            'inventario': {}
+            'inventario': set()
         }
 
     estado_do_jogador = estados[partidas[autor]['estado']]
