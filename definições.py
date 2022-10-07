@@ -9,7 +9,7 @@ estados = {
     0: {
         'frases': ['Seja bem-vindo(a) ao jogo cuidado onde pisa, para poder jogar digite “iniciar”.'],
         'proximos_estados': {
-            '[iI]niciar+?': 1
+            '[iI]niciar+?|"[iI]niciar+?"': 1
         },
         'inventario': set()
     },
