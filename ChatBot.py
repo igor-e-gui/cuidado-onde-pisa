@@ -51,13 +51,18 @@ async def on_message(msg):
                 # Se houver uma imagem referente ao estado,
                 # envia essa primeiro
                 imagem = str(value) + '.gif'
-                audio = srt(value) + '.mp3'
                 if exists(imagem):
                     await msg.channel.send(file=discord.File(imagem))
+
+                # Se houver um audio referente ao estado,
+                # envia esse primeiro
+                audio = str(value) + '.mp3'
+                if exists(audio):
+                    await msg.channel.send(file=discord.File(audio))
             else:
                 await msg.channel.send(frases['inventario_insuficiente'])
             return
-
+            
     if partidas[autor]['estado'] == 0:
         await msg.channel.send(choice(estado_do_jogador['frases']))
     else:
