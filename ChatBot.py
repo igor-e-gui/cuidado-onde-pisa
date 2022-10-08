@@ -51,6 +51,7 @@ async def on_message(msg):
                 # Se houver uma imagem referente ao estado,
                 # envia essa primeiro
                 imagem = str(value) + '.gif'
+                audio = srt(value) + '.mp3'
                 if exists(imagem):
                     await msg.channel.send(file=discord.File(imagem))
             else:
