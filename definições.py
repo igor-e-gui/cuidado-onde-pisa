@@ -74,7 +74,7 @@ estados = {
         'inventario':set()
     },
     9: {
-…pelicanos e comer os peixes crus na frente deles.***'],
+        'frases': ['Você nada rapidamente para a sua canoa, puxa sua âncora de volta para o barco e se livra do tubarão… Ficou parado por um tempo, sem remar, apenas comendo os peixes crus, comeu 3 e guardou 4 debaixo da lona…\nCom o Sol quase se pondo, você pegou a lona e a utilizou como cobertor para se proteger do frio que estava chegando. Anoiteceu e você não enxergou nada, a não ser as estrelas e a Lua crescente no céu. Com a brisa do mar e o som calmo das ondas, caiu em um sono profundo, mas sem sonhos…\nVocê acorda com os gritos dos pelicanos que voam próximo a você por sentirem o mau cheiro dos peixes mortos que estavam dentro da sua canoa\n\n***Você tem duas opções para escolher:\nDigite "1" para dar os peixes para as aves a fim de evitar que elas tentam lhe atacar ou digite "2" para provocar os pelicanos e comer os peixes crus na frente deles***'],
         'proximos_estados':{
             '1|"1"': 10,
             '2|"2"': 11,
