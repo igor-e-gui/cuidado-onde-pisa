@@ -44,7 +44,7 @@ estados = {
         'inventario':set()
     },
     5: {
-        'frases': ['Você ignora o encanto da sereia, pois sente uma extrema paixão por ela, além de querer comer algo…\nA sereia inicia, com sua voz doce e hipnotizante, uma canção muito boa de se ouvir e você a segue em direção ao oceano…\nDe repente, a sereia pausa a música e o agarra, levando-o embora, em direção ao fundo do mar e você se afoga e fica preso lá, dentro de uma espécie de reino subaquático e vira comida de tubarão…\n\n***Você falhou na missão :cry:\nDigite “reiniciar” para jogar novamente :smiley:***'],
+        'frases': ['Você ignora o encanto da sereia, pois sente uma extrema paixão por ela, além de querer comer algo…\nA sereia inicia, com sua voz doce e hipnotizante, uma canção muito boa de se ouvir e você a segue em direção ao oceano…\nDe repente, a sereia pausa a música e o agarra, levando-o embora, em direção ao fundo do mar e você se afoga e fica preso lá, em uma cidadezinha subaquática, chamada Fenda do Bikini e é comido pelas piranhas do lugar…\n\n***Você falhou na missão :cry:\nDigite “reiniciar” para jogar novamente :smiley:***'],
         'proximos_estados':{
             '[Rr]einiciar|"[Rr]einiciar"': 1
         },
