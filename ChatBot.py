@@ -87,7 +87,7 @@ async def on_message(msg):
                     canal_de_voz.play(som_opus)
                 #
                 # Se houver uma imagem referente ao estado, enviar
-                arquivo_de_imagem = str(value) + '.png'
+                arquivo_de_imagem = str(value) + '.gif'
                 if exists(arquivo_de_imagem):
                     await msg.channel.send(file=discord.File(arquivo_de_imagem))
                 #
