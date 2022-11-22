@@ -19,7 +19,7 @@ estados = {
     1: {
         'frases': ['Você acorda, de repente, ao nascer do sol em uma canoa em mar aberto, dentro de um saco de lixo preto com algumas regiões rasgadas, sem lembrar do que lhe ocorreu e de qual é a sua identidade. Você está sozinho, sem ao menos com a presença de um pássaro no céu, somente ouve o som de piavas pulando do mar.\nAo se levantar, sente uma dor forte atrás da cabeça, perto da nuca. Você analisa a parte interna da embarcação e apenas encontra uma bússola, interage com ela e chega a conclusão de que sempre aponta para a mesma direção, independente da sua movimentação.\n\nVocê vasculha uma parte do barco coberta de uma lona amarela e encontra um pedaço de madeira semelhante a um remo, tendo apenas ele e a bússola em mãos, por enquanto.\n\n***Você tem apenas uma opção para escolher:\nDigite “1” para pegar a madeira e remar em direção à ponta da bússola.***'],
         'proximos_estados': {
-        '1|"1"': 2,
+            '1|"1"': 2,
         },
         'inventario':set()
     },
