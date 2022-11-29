@@ -1,5 +1,5 @@
 frases = {
-    'reiniciado': 'Jogo reiniciado (progresso do jogador apagado).',
+    'reiniciado': '***Jogo reiniciado (progresso do jogador apagado). Digite "iniciar" para recomeçar a história.***',
     'saindo': 'Daisy\nDaisy',
     'canal_privado': 'Não é possível reproduzir áudio em canais privados.',
     'sem_canal_de_voz': 'Por favor, esteja em um canal de voz para ter a imersão completa do jogo.',
