@@ -3,7 +3,7 @@ frases = {
     'saindo': 'Daisy\nDaisy',
     'canal_privado': 'Não é possível reproduzir áudio em canais privados.',
     'sem_canal_de_voz': 'Por favor, esteja em um canal de voz para ter a imersão completa do jogo.',
-    'erro': 'Algo errado aconteceu, tente novamente'
+    'erro': 'Você está em um canal privado, entre no servidor Projeto Integrador para ter uma jogatina completa.'
 }
 
 # Dicionário com as definições da máquina de estados do jogo.
