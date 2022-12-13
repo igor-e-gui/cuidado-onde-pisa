@@ -54,3 +54,6 @@ Por exemplo: Caso o usuário tenha de escolher entre combater um animal ou fugir
 
 - Características do personagem: 
 Um jovem garoto à beira dos seus 22 anos, de estatura física magra e comprida (189.5 cm), com olhos castanhos claros, cabelo de cor escura, orelhas alargadas, nariz de tamanho mediano, superdotado intelectualmente, ex-universitário de medicina, de nacionalidade portuguesa, filho de um artesão e uma costureira, estes tendo apenas um filho (o personagem principal).
+
+## Prefixo para conversar com o bot:
+*
